@@ -1,0 +1,25 @@
+{
+  "name": "presentation-lokijs",
+  "version": "1.0.0",
+  "description": "presentation",
+  "main": "index.js",
+  "scripts": {
+    "clean" : "node removedb",
+    "test": "mocha "
+  },
+  "keywords": [
+    "lokijs"
+  ],
+  "author": "genin christophe",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "co-mocha": "^1.2.2",
+    "csvtojson": "^2.0.8",
+    "lokijs": "^1.5.6",
+    "mkdirp": "^0.5.1",
+    "mocha": "^6.1.4",
+    "rmdirp": "^0.1.0",
+    "sinon": "^7.3.2"
+  }
+}

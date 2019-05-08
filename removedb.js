@@ -1,0 +1,1 @@
+require('fs').unlinkSync('db/loki.json')
