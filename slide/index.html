@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h3>Lokijs - embedded nosql db</h3>
+
+        </section>
+        <section>
+            <h3>Qui je suis ?</h3>
+            <div style="display: flex;">
+                <img src="css/image/profil.jpeg">
+                <div style="margin: .25em; text-align: start">
+                    <p>
+                        Développeur java / Js de + de 15 ans d'expériences.
+                    </p>
+                    <p>
+                        Référent technique à la Mutuelle de Poitiers Assurances.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>La problématique </h3>
+            <ul>
+                <li>Création d'un projet NodeJs (POC, d'un cli, etc...) nécessitant une petite BD.</li>
+            </ul>
+            <img src="css/image/problematique.webp">
+        </section>
+        <section>
+            <h3>Les solutions</h3>
+            <ul>
+                <li>Utiliser les bases de données de l'entreprises</li>
+            </ul>
+            <div style="margin: 1em;">
+            <video autoplay muted playsinline loop>
+                <source src="css/image/oracle.webm" type="video/webm">
+            </video>
+            </div>
+        </section>
+        <section>
+            <h3>Les solutions</h3>
+            <ul>
+                <li>Se charger soit moi-même de la sérialisation des données.</li>
+            </ul>
+            <img src="css/image/faignant.webp">
+            <p>Sauf que je suis feignant.</p>
+        </section>
+        <section>
+            <h3>Utiliser une librairie existante : Lokijs</h3>
+            <p>
+                Base de données NoSQL écrite uniqument en JS.
+            </p>
+            <ul>
+                <li>Rapide (car en mémoire)</li>
+                <li>Node Js ou browser compatible</li>
+                <li>Optionel autosave (Redis style store)</li>
+                <li>Api à la Mongo.</li>
+                <li>Sauvegarde d'un fichier Json comme base de données.</li>
+            </ul>
+        </section>
+        <section data-markdown>
+            - Création d'une instance :
+
+            ```javascript
+            const db = new Lokijs('loki.json');
+            ```
+            - Création d'une collection
+
+            ```javascript
+            const maCollection = db.addCollection('uneCollection');
+            ```
+
+            - insertion d'un document
+
+            ```javascript
+                maCollection.insert({...});
+            ```
+
+        </section>
+        <section data-markdown="">
+            - lecture de la collection
+
+            ```javascript
+            const allDatas =  maCollection.data;
+            ```
+
+            - update d'un document
+
+            ```javascript
+            maCollection.update(obj);
+            ```
+
+            - Suppression d'un document
+
+            ```javascript
+            maCollection.remove(obj);
+            ```
+        </section>
+        <section>
+            Demo
+        </section>
+        <section>
+            Des questions ?
+            <p>Merci de m'avoir écouté :)</p>
+            <p>Ressources :</p>
+            <ul>
+            <li>Site de LokiJs : <a href="http://lokijs.org">http://lokijs.org</a></li>
+            <li>Présentation : <a href="https://github.com/cgenin/presentation-lokijs">https://github.com/cgenin/presentation-lokijs</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true }
+        ]
+    });
+</script>
+</body>
+</html>
