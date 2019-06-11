@@ -23,7 +23,7 @@ describe('demo', () => {
         // console.log(characters.where(c => c.name.indexOf('Loki') !== -1))
         // console.log(characters.extract('year'))
         // console.log(characters.min('year'))
-        // console.log( characters.find({'year':1978}))
+        //  console.log(collection.find({'year':1978, ALIGN:'good'}));
 
         /*
         characters.addTransform('example', [

@@ -27,7 +27,7 @@
     <div class="slides">
         <section>
             <h3>Lokijs - embedded nosql db</h3>
-
+            <img src="css/image/loki.jpg">
         </section>
         <section>
             <h3>Qui je suis ?</h3>
@@ -46,14 +46,14 @@
         <section>
             <h3>La problématique </h3>
             <ul>
-                <li>Petit projets nécessitant une base de données (exemple : webhook, cli, poc, etc....)</li>
+                <li>Projets nécessitant une <small style="margin-top: 15px;">petite</small> base de données (exemple : webhook, cli, poc, etc....)</li>
                 <img src="css/image/nodejs.png">
             </ul>
         </section>
         <section>
             <h3>Les solutions</h3>
             <ul>
-                <li>Utiliser les bases de données de l'entreprises</li>
+                <li>Utiliser LA base de données de l'entreprises</li>
             </ul>
             <div style="margin: 1em;">
 <!--            <video autoplay muted playsinline loop>-->
@@ -73,7 +73,7 @@
         <section>
             <h4> Lokijs</h4>
             <p>
-                   Base de données NoSQL écrite uniqument en JS.
+                   Base de données NoSQL écrite uniquement en JS.
             </p>
             <ul>
                 <li>Rapide</li>
@@ -143,11 +143,23 @@
     // - https://github.com/hakimel/reveal.js#configuration
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
+        hash: true,
+
+        // Push each slide change to the browser history. Implies `hash: true`
+        history: true,
+        toolbar: {
+            fullscreen: true,
+            notes: true,
+            pause: true,
+            overview: false,
+            help: false
+        },
         dependencies: [
             { src: 'plugin/markdown/marked.js' },
             { src: 'plugin/markdown/markdown.js' },
             { src: 'plugin/notes/notes.js', async: true },
-            { src: 'plugin/highlight/highlight.js', async: true }
+            { src: 'plugin/highlight/highlight.js', async: true },
+            { src: 'node_modules/reveal.js-toolbar/toolbar.js', async: true }
         ]
     });
 </script>
