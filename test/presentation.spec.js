@@ -10,3 +10,10 @@ describe('demo', () => {
         done();
     });
 });
+
+/**
+ {
+                type: 'map',
+                value: '[%lktxp]Mapper'
+            }
+ **/
