@@ -2091,9 +2091,9 @@ lodash.isfinite@^3.3.2:
   integrity sha1-+4m2WpqAKBgz8LdHizpRBPiY67M=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@~4.17.10, lodash@~4.17.11, lodash@~4.17.5:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -2968,6 +2968,11 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+
+reveal.js-toolbar@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/reveal.js-toolbar/-/reveal.js-toolbar-0.2.1.tgz#d9de7c18336d43ecf2e73e1f0d79e51245f11c9c"
+  integrity sha512-5XGyfs7aTWHCzl8CxicX6CAIArNhSI9v6jFpprymGQQk/jj7RsGvaNaTs9zyRdeiGF2j7fxQUKwwM1+R9EMiEA==
 
 rimraf@2, rimraf@^2.6.1, rimraf@~2.6.2:
   version "2.6.3"
