@@ -708,9 +708,9 @@ decamelize@^1.1.1, decamelize@^1.1.2:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 define-property@^0.2.5:
   version "0.2.5"
@@ -2968,6 +2968,11 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+
+reveal.js-toolbar@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/reveal.js-toolbar/-/reveal.js-toolbar-0.2.1.tgz#d9de7c18336d43ecf2e73e1f0d79e51245f11c9c"
+  integrity sha512-5XGyfs7aTWHCzl8CxicX6CAIArNhSI9v6jFpprymGQQk/jj7RsGvaNaTs9zyRdeiGF2j7fxQUKwwM1+R9EMiEA==
 
 rimraf@2, rimraf@^2.6.1, rimraf@~2.6.2:
   version "2.6.3"
