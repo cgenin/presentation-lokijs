@@ -2779,9 +2779,9 @@ qs@6.7.0, qs@^6.4.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring@0.2.0:
   version "0.2.0"
@@ -2968,6 +2968,11 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+
+reveal.js-toolbar@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/reveal.js-toolbar/-/reveal.js-toolbar-0.2.1.tgz#d9de7c18336d43ecf2e73e1f0d79e51245f11c9c"
+  integrity sha512-5XGyfs7aTWHCzl8CxicX6CAIArNhSI9v6jFpprymGQQk/jj7RsGvaNaTs9zyRdeiGF2j7fxQUKwwM1+R9EMiEA==
 
 rimraf@2, rimraf@^2.6.1, rimraf@~2.6.2:
   version "2.6.3"
